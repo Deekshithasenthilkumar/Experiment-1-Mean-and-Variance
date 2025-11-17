@@ -49,8 +49,9 @@ It is calculated as:
 Name - DEEKSHITHA S
 Reg No - 25014669
 Slot Name - 3P1-1
-import numpy as np 
- 
+
+
+import numpy as np  
 # Input: Enter the number of arrivals separated by space 
 L = [int(i) for i in input("Enter arrival data: ").split()] 
  
