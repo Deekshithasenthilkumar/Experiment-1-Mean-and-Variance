@@ -52,16 +52,11 @@ Slot Name - 3P1-1
 
 
 import numpy as np 
- 
-
 L = [int(i) for i in input("Enter arrival data: ").split()] 
- 
 N = len(L) 
 M = max(L) 
 x = [] 
 f = [] 
- 
-
 for i in range(M + 1): 
     c = 0 
     for j in range(N): 
@@ -69,20 +64,12 @@ for i in range(M + 1):
             c += 1 
     f.append(c) 
     x.append(i) 
- 
-sf = np.sum(f) 
- 
-
+ sf = np.sum(f) 
  p = [f[i] / sf for i in range(M + 1)] 
-
 mean = np.inner(x, p) 
- 
- 
-EX2 = np.inner(np.square(x), p) 
-
+ EX2 = np.inner(np.square(x), p) 
 var = EX2 - mean**2 
 SD = np.sqrt(var) 
- 
 print(f"The Mean arrival rate is {mean:.3f}") 
 print(f"The Variance of arrival from feeder is {var:.3f}") 
 print(f"The Standard deviation of arrival from feeder is {SD:.3f}") 
@@ -93,7 +80,6 @@ COLAB LINK - https://colab.research.google.com/drive/1rKnFGvAKVHKbBHziMIen2v343k
 
 
 # Output:
-
 Enter arrival data:  6 6 6 6 6 8 7 9 
 The Mean arrival rate is 6.750
 The Variance of arrival from feeder is 1.188
