@@ -46,7 +46,7 @@ It is calculated as:
 
 
 # Program: 
-
+```
 import numpy as np
 
 Data=[int(i) for i in input("Enter arrival data: ").split()]
@@ -83,6 +83,7 @@ print("Variance",var)
 #Standard deviation
 Std_dev=np.sqrt(var)
 print("Standard deviation",Std_dev)
+```
 # Output:
 
 <img width="808" height="98" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/2f70d3f3-2869-44c3-bfd7-b6c2e5d54b1f" />
