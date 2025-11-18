@@ -90,7 +90,7 @@ print(f"The Mean arrival rate is {mean:.3f}")
 print(f"The Variance of arrival from feeder is {var:.3f}") 
 print(f"The Standard deviation of arrival from feeder is {SD:.3f}")
 ```
-COLAB LINK-https://colab.research.google.com/notebooks/intro.ipynb
+COLAB LINK-https://colab.research.google.com/drive/1rKnFGvAKVHKbBHziMIen2v343k2zZzgz?usp=sharing
 # Output:
 
 <img width="808" height="98" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/2f70d3f3-2869-44c3-bfd7-b6c2e5d54b1f" />
