@@ -47,7 +47,9 @@ It is calculated as:
 
 # Program: 
 Name- DEEKSHITHA S
+
 Reg No-25014669
+
 Slot No-3P1-1
 ```
 import numpy as np 
