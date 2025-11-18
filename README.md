@@ -83,7 +83,6 @@ print("Variance",var)
 #Standard deviation
 Std_dev=np.sqrt(var)
 print("Standard deviation",Std_dev)
-
 # Output:
 
 
